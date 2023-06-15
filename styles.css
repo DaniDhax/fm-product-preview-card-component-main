@@ -1,3 +1,12 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(0, 16%, 78%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -6,16 +15,19 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 14px;
+    background-color: var(--cream);
 }
 
 .container {
-    background-color: rgb(204, 204, 204);
+    background-color: var(--white);
     height: 95vh;
     min-height: 800px;
     min-width: 375px;
     max-width: 686px;
     border-radius: 10px;
     overflow: hidden;
+    font-family: 'Fraunces', sans-serif;
 }
 
 .foto {
@@ -34,6 +46,28 @@ img {
 }
 
 .texto {
-    margin: 0;
+    width: 85%;
+    margin: auto;
     padding: 0;
+
+}
+
+.texto h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.3rem;
+}
+
+.texto h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.texto p {
+    text-align: justify;
+    color: var(--dark-grayish-blue);
+    
 }

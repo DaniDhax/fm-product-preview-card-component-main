@@ -69,5 +69,39 @@ img {
 .texto p {
     text-align: justify;
     color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
     
+}
+
+
+#descripcion {
+    line-height: 1.7rem;
+}
+
+#precioBueno {
+    font-size: 2.5rem;
+    font-family: 'Fraunces', sans-serif;
+    color: var(--dark-cyan);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#precioTachado {
+    margin: 0 2px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+input {
+    border: 0 transparent solid;
+    background-color: var(--dark-cyan);
+    color: white;
+    padding: 20px 125px;
+    border-radius: 5px;
+    font-weight: 700;
+
+
 }

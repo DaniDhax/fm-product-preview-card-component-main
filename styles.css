@@ -95,13 +95,25 @@ img {
     text-decoration: line-through;
 }
 
+#boton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 input {
     border: 0 transparent solid;
     background-color: var(--dark-cyan);
     color: white;
-    padding: 20px 125px;
-    border-radius: 5px;
+    padding: 18px;
+    width: 100%;
+    border-radius: 10px;
     font-weight: 700;
-
-
+    background-image: url(./images/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position: 33%;
 }
+
+
+
+  
